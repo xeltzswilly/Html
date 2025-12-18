@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rowspan</title>
+    <style>
+    table, th, td{
+        border: 1px solid crimson;
+    }
+table{
+    width:100%;
+
+}
+th,td{
+    padding:1%;
+    text-align:center;
+}
+tr:nth-child(odd){
+    background-color: royalblue;
+}
+tr:nth-child(even){
+    background-color:lightgreen;
+}
+</style>
+</head>
+<body>
+    <h1>spanning multiple rows</h1>
+    <table>
+        <tr>
+            <th>Name</th>
+            <td>Random Name 1</td>
+        </tr>
+    <tr>
+        <th rowpsan="1"> Phone No.</th>
+        <td>987-654-321</td>
+    </tr>
+    <tr>
+<td>123-456-789</td>
+    </tr>
+    </table>
+</body>
+</html>
